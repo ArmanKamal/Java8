@@ -2,6 +2,7 @@ package Lambda;
 
 public class RunnableLambda {
 
+
     public void runLambda() throws InterruptedException {
         Runnable runnable = new Runnable() {
             @Override
@@ -11,6 +12,8 @@ public class RunnableLambda {
                 }
             }
         };
+
+        /* Lambda expression for more than one line */
 
         Runnable runnable1 = () -> {
             for(int i=0; i<3; i++){

@@ -1,4 +1,6 @@
+import Lambda.ComparatorLambda;
 import Lambda.FileLambda;
+import Lambda.NewPattern;
 import Lambda.RunnableLambda;
 
 import java.io.File;
@@ -13,6 +15,12 @@ public class FirstLambda {
 
         RunnableLambda runnableLambda = new RunnableLambda();
         runnableLambda.runLambda();
+
+        ComparatorLambda comparatorLambda = new ComparatorLambda();
+        comparatorLambda.compare();
+
+        NewPattern newPattern = new NewPattern();
+        newPattern.newPatternExample();
 
     }
 
